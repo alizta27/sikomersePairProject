@@ -1,0 +1,28 @@
+{
+  "name": "pair-project",
+  "version": "1.0.0",
+  "description": "GET /home = tampilan landingpage awal berisi tentang aplikasi (gambaran umum), ada tombol untuk login dan registernya GET /login = form untuk login GET /register = form untuk register POST /register = post form register ke db GET /ehsikomers = menampilkan list toko GET /ehsikomrs/product = menampilkan list produk yg ada di dalam toko GET /profile = edit profil user, delete, update POST /profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mersiera/pair-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mersiera/pair-project/issues"
+  },
+  "homepage": "https://github.com/mersiera/pair-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "pg": "^8.7.3",
+    "sequelize": "^6.16.2"
+  }
+}

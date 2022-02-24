@@ -1,0 +1,20 @@
+[
+   {
+      "name": "Toko Kebenaran",
+      "address": "Jalan ridho ilahi no.1, Kebenaran, Kebenaran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12780",
+      "img" : "http://assets.kompasiana.com/items/album/2018/04/19/jangan-tukar-kebenaran-dengan-kebohongan-jpg-5ad80fabf13344773911fca2.jpg",
+      "SellerId": 1
+   },
+   {
+      "name": "Toko Cowo Senja",
+      "address": "Jalan sunyi menanti cinta sejati no.1, Cibubur, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12780",
+      "img" : "https://i.pinimg.com/originals/86/5e/5f/865e5fe4156d90d148490726bd4eea9e.jpg",
+      "SellerId": 2
+   },
+   {
+      "name": "Toko Kedamaian",
+      "address": "Jalan inilah jalan ninjaku no.1, Kedamaian, Kedamaian, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12780",
+      "img" : "https://i.pinimg.com/originals/d8/93/ef/d893efbf515b32dacab3e78b35ad40c2.jpg",
+      "SellerId": 3
+   }
+]

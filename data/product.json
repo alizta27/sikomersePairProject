@@ -1,0 +1,137 @@
+[
+  {
+     "name": "1 set Panci Cantik",
+     "description": "Panci cantik serba bisa!!",
+     "price": 472.02,
+     "img": "https://i0.wp.com/resepkoki.id/wp-content/uploads/2018/09/aracaproject-com.jpg?fit=500%2C281&ssl=1",
+     "stock": 50,
+     "ShopId": 1,
+     "CategoryId": 3
+   },
+   {
+     "name": "Tamagochi Hypebeast",
+     "description": "Aku bangga punya tamagochi",
+     "price": 335.57,
+     "img": "https://akcdn.detik.net.id/community/media/visual/2021/06/18/tamagotchi-smart_169.png?w=700&q=90",
+     "stock": 5,
+     "ShopId": 2,
+     "CategoryId": 2
+   },
+   {
+     "name": "Baju Wifu",
+     "description": "Ini wifuku, mana wifumu",
+     "price": 184.11,
+     "img": "https://id.360buyimg.com/Indonesia/s880x0_/amZzL3Q0OS82Ny8yOTg0NjExNTA5LzUxODY1Lzg4MDYyMDg0LzVlZGUxNGM0TjY4NTgwNDlj.jpg.dpg.webp",
+     "stock": 29,
+     "ShopId": 3,
+     "CategoryId": 1
+   },
+   {
+     "name": "Kotak Makan",
+     "description": "Beli 1 dapat 1",
+     "price": 292.21,
+     "img": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//103/MTA-8953762/mjs_ecentio_kotak_makan_4_grid_full03_cgz7xd8f.jpg",
+     "stock": 125,
+     "ShopId": 2,
+     "CategoryId": 3
+   },
+   {
+     "name": "Keyboard ",
+     "description": "Anda dapat mengetik di komputer dengan benda ini",
+     "price": 140.64,
+     "img": "https://www.dhresource.com/0x0/f2/albu/g5/M01/2C/2F/rBVaI1mLA26Ac0oaAAFwsIMjpyg757.jpg",
+     "stock": 73,
+     "ShopId": 1,
+     "CategoryId": 2
+   },
+   {
+     "name": "Jaket bagus",
+     "description": "Jaket khusus menaikan ketampanan",
+     "price": 196.88,
+     "img": "https://cdn.shopify.com/s/files/1/0071/1150/8015/products/R14J80460105-JAKETBOMBERSTERLING_1024x1024@2x.jpg?v=1593159999",
+     "stock": 73,
+     "ShopId": 2,
+     "CategoryId": 1
+   },
+   {
+     "name": "Mouse warna warni",
+     "description": "Mouse terlaris abad ini",
+     "price": 101.73,
+     "img": "https://media.hitekno.com/thumbs/2020/09/04/85098-mouse-gaming-razer-naga-pro-razer/730x480-img-85098-mouse-gaming-razer-naga-pro-razer.jpg",
+     "stock": 109,
+     "ShopId": 3,
+     "CategoryId": 2
+   },
+   {
+     "name": "Kaos sejuta umat",
+     "description": "kaos band keren",
+     "price": 331.55,
+     "img": "https://images.tokopedia.net/img/cache/500-square/product-1/2017/3/21/17592618/17592618_6a55e844-42d2-413d-b80a-0bd43884f37e_874_1240.jpg",
+     "stock": 22,
+     "ShopId": 3,
+     "CategoryId": 1
+   },
+   {
+     "name": "Topi Tersayang",
+     "description": "Masih ingat dengan topi ini?",
+     "price": 396.07,
+     "img": "http://cdn-2.tstatic.net/bogor/foto/bank/images/masih-ingat-topi-ini_20160619_164059.jpg",
+     "stock": 23,
+     "ShopId": 3,
+     "CategoryId": 1
+   },
+   {
+     "name": "Kompor listrik",
+     "description": "kompor listrik performa terbaik",
+     "price": 337.82,
+     "img": "https://media.suara.com/pictures/970x544/2019/03/01/88748-kompor-listrik.jpg",
+     "stock": 95,
+     "ShopId": 3,
+     "CategoryId": 3
+   },
+   {
+     "name": "Speaker",
+     "description": "Boom boom boom",
+     "price": 178.47,
+     "img": "https://www.marshallheadphones.com/on/demandware.static/-/Sites-zs-master-catalog/default/dw42207223/images/marshall/speakers/emberton/high-res/POS_Emberton_high-res-1.png",
+     "stock": 101,
+     "ShopId": 1,
+     "CategoryId": 2
+   },
+   {
+     "name": "Celana Cargo",
+     "description": "Berpetualang dan tetap menarik",
+     "price": 442.65,
+     "img": "https://www.harapanrakyat.com/wp-content/uploads/2020/11/5.-Celana-Cargo-Panjang-Pilih-Bahan-Berkualitas-Desain-Modern-Kekinian.jpg",
+     "stock": 184,
+     "ShopId": 2,
+     "CategoryId": 1
+   },
+   {
+     "name": "Sepatu bts",
+     "description": "BTS lovers yuk beli",
+     "price": 114.26,
+     "img": "https://awsimages.detik.net.id/community/media/visual/2021/06/24/sepatu-bts-meal-kreasi-josiah-chua_43.jpeg?w=1200",
+     "stock": 57,
+     "ShopId": 1,
+     "CategoryId": 1
+   },
+   {
+     "name": "headphone",
+     "description": "Headphone simple namun elegan",
+     "price": 215.92,
+     "img": "https://m.media-amazon.com/images/I/51xxA+6E+xL._SL1500_.jpg",
+     "stock": 73,
+     "ShopId": 1,
+     "CategoryId": 2
+   },
+   {
+     "name": "Spatula",
+     "description": "Bisa masak nasi goreng dengan ini",
+     "price": 304.83,
+     "img": "https://www.ubuy.co.id/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODE1aGpoeUVkQ0wuX0FDX1NMMTUwMF8uanBn.jpg",
+     "stock": 43,
+     "ShopId": 3,
+     "CategoryId": 3
+   }
+]

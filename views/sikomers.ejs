@@ -1,0 +1,147 @@
+ <%- include("./layout/head") %> 
+
+ <body>
+  <div class="banner_bg_main">
+     <div class="container">
+        <div class="header_section_top">
+           <div class="row">
+              <div class="col-sm-12">
+                 <div class="custom_menu">
+                  <h4 style="color: aliceblue;">Belanja murah, tanpa diskon, dompet aman !</h4>
+
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <!-- header top section start -->
+     <!-- logo section start -->
+     <div class="logo_section">
+        <div class="container">
+           <div class="row">
+              <div class="col-sm-12">
+                 <div class="logo"><a style="font-size:250%; font-weight: 800;" href="/sikomers">SiKomers</a></div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <!-- logo section end -->
+     <!-- header section start -->
+     <div class="header_section">
+        <div class="container">
+           <div class="containt_main">
+              <div class="dropdown">
+                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
+                 </button>
+                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="/sikomers?filter=1">Pakaian</a>
+                    <a class="dropdown-item" href="/sikomers?filter=2">Teknologi</a>
+                    <a class="dropdown-item" href="/sikomers?filter=3">Sayang Istri</a>
+                 </div>
+              </div>
+              <div class="main">
+                 <!-- Another variation with a button -->
+                 <form action="" method="get">
+                 <div class="input-group">
+                       <input type="text" class="form-control" name="search" placeholder="Search this blog">
+                       <div class="input-group-append">
+                          <button class="btn btn-secondary" type="submit" style="background-color: #f26522; border-color:#f26522 ">
+                           <i class="fa fa-search"></i>
+                        </button>
+                     </div>
+                  </div>
+               </form>
+              </div>
+              <div class="header_box">
+                 <div class="login_menu">
+                    <ul>
+                       <li><a href="/logout">
+                          <i class="fa fa-sign-out" aria-hidden="true"></i>
+                          <span class="padding_10">Logout</span></a>
+                       </li>
+                       <li><a href="/users">
+                          <i class="fa fa-user" aria-hidden="true"></i>
+                          <span class="padding_10">Profile</span></a>
+                       </li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <!-- header section end -->
+     <!-- banner section start -->
+     <div class="banner_section layout_padding">
+        <div class="container">
+           <div id="my_slider" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                 <div class="carousel-item active">
+                    <div class="row">
+                       <div class="col-sm-12">
+                          <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
+                          <div class="buynow_bt"><a href="/sikomers/shop">All Shop</a></div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="carousel-item">
+                    <div class="row">
+                       <div class="col-sm-12">
+                          <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
+                          <div class="buynow_bt"><a href="/sikomers/shop">All Shop</a></div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="carousel-item">
+                    <div class="row">
+                       <div class="col-sm-12">
+                          <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
+                          <div class="buynow_bt"><a href="/sikomers/shop">All Shop</a></div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+              <i class="fa fa-angle-left"></i>
+              </a>
+              <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+              <i class="fa fa-angle-right"></i>
+              </a>
+           </div>
+        </div>
+     </div>
+     <!-- banner section end -->
+  </div>
+  <!-- banner bg main end -->
+  <!-- fashion section start -->
+  <div class="fashion_section">
+     <div id="main_slider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+           <div class="carousel-item active">
+              <div class="container">
+                 <h1 class="fashion_taital">SiKomers All Product</h1>
+                 <div class="fashion_section_2">
+                    <div class="row">
+                     
+                     <% allProduct.forEach(el => { %>
+                       <div class="col-lg-4 col-sm-4">
+                          <div class="box_main">
+                             <h4 class="shirt_text"><%=el.name %> </h4>
+                             <p class="price_text">Price  <span style="color: #262626;"><%= formatter.format(el.price) %></span></p>
+                             <div class="tshirt_img"><img src="<%=el.img %> "></div>
+                             <div class="btn_main">
+                                <div class="seemore_bt"><a href="/sikomers/product/<%= el.id %>">See More</a></div>
+                             </div>
+                          </div>
+                       </div>
+                       <% }) %>
+
+                    </div>
+                 </div>
+              </div>
+           </div>
+           </div>
+        </div>
+     </div>
+  </div>
+
+ <%-include("./layout/footer") %> 
